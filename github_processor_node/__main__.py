@@ -21,7 +21,6 @@ def ensure_directories(config):
         logger.error(f"Failed to create required directories: {e}")
         return False
 
-# Import core components after logging setup
 from .core import node
 
 # Validate configuration
